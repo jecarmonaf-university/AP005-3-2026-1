@@ -104,7 +104,10 @@ print(año)
 print("Nombre: ", nombre , " - Dia: ", dia, " - Mes: " , mes, " - Año: ", año) #Facilita ya que al asignar variable a los elementos de las tuplas, no se necesita
 #acceder a la tupla para usar el elemento de ella, lo que facilita el trabajo y el acceso a la informacion de la tupla.
 
+lista_colores2 = list(tupla_colores) #Conversion de tupla a lista
+print(lista_colores2)
 
+#El cambio de tupla a lista es util cada vez que se desea modificar los elementos o datos que estan protegidos en la tupla ya que no las tuplas no poseen atributos de modificacion, lo que las hace utiles para proteger informacion.
 
 
 
